@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'snippets.apps.SnippetsConfig',
     'quickstart.apps.QuickstartConfig',
     'django.contrib.admin',
     'django.contrib.auth',
